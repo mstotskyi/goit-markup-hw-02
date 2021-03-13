@@ -40,6 +40,11 @@ address {
   list-style: none;
 }
 
+.title {
+  font-weight: 700;
+  color: var(--title-text-color);
+}
+
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -98,11 +103,9 @@ address {
 /* Приемущества */
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--title-text-color);
 }
 
 .visually-hidden {
@@ -117,11 +120,9 @@ address {
 }
 
 .list-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
-  color: var(--title-text-color);
 }
 
 .our-team {
@@ -139,19 +140,12 @@ address {
   color: #212121;
 }
 
-.foter-section {
+.footer-section {
   background-color: var(--dark-bg-color);
 }
 
-.logo-web-footer {
-  color: var(--accent-text-color);
-}
-
-.logo-studio-footer {
-  color: var(--main-title-color);
-}
-
-.our-adress {
+.logo-studio-footer,
+.our-address {
   color: var(--main-title-color);
 }
 .link-footer {
@@ -169,13 +163,11 @@ address {
 }
 
 .list-item-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-text-color);
 }
-
+/* сдесь не применяется font-weight:normal дефолтом (не могу найти почему) */
 .list-item {
   font-weight: 400;
   font-size: 16px;
