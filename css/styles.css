@@ -7,6 +7,7 @@
   --dark-bg-color: #2f303a;
   --logo-dark-color: #000000;
   --main-title-color: #ffffff;
+  --light_bg-color: #f5f4fa;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  background-color: var(--main-title-color);
 }
 
 address {
@@ -28,6 +30,7 @@ address {
   color: var(--title-text-color);
 }
 
+.current,
 .link:hover,
 .link:focus {
   color: var(--accent-text-color);
@@ -42,6 +45,7 @@ address {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 
 .logo {
@@ -120,6 +124,10 @@ address {
   color: var(--title-text-color);
 }
 
+.our-team {
+  background-color: var(--light_bg-color);
+}
+
 .team {
   font-size: 16px;
   line-height: 1.187;
@@ -148,4 +156,29 @@ address {
 }
 .link-footer {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.filter {
+  background-color: var(--filter-button-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-text-color);
+  color: var(--main-title-color);
+}
+
+.list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-color);
 }
